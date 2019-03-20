@@ -2,6 +2,9 @@ import java.util.*;
 
 public class DicePair
 {
+	Die d1 = new Die();
+	Die d2 = new Die();
+
 	public DicePair()
 	{
 		Die d1 = new Die();
@@ -15,5 +18,6 @@ public class DicePair
 		total+=d2.roll();
 		return total;
 	}
+
 	
 }
