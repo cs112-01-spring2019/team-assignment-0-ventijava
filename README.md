@@ -1,4 +1,4 @@
 # DiceGame
-Saige: Player.java
-Graham: DicePair.java
-Theo: Coin.java
+#Saige: Player.java
+#Graham: DicePair.java
+#Theo: Coin.java
