@@ -1,4 +1,4 @@
-import java.util.*
+import java.util.*;
 
 public class Coin
 {
@@ -6,13 +6,13 @@ public class Coin
 
 	public Coin()
 	{
-		boolean heads = true;
+		heads = true;
 	}
-	public flip()
+	public void flip()
 	{
-	private int toss;
-	Random generator = new random();
-	toss = generator.nextInt(1);
+	int toss;
+	Random generator = new Random();
+	toss = generator.nextInt(2);
 	if (toss == 0)
 	{
 		heads = true;
@@ -28,7 +28,7 @@ public class Coin
 		{
 			return true;
 		}
-		if (heads == false)
+		else
 		{
 			return false;
 		}
